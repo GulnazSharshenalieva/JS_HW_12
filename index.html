@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <h1>Классы DOM-узлов</h1>
+    <!-- comment -->
+    <p>
+        У разных DOM-узлов могут быть разные свойства. Например, у узла, соответствующего тегу <a>, есть свойства,
+            связанные со ссылками, а у соответствующего тегу <input> – свойства, связанные с полем ввода и т.д.
+            Текстовые узлы отличаются от узлов-элементов. Но у них есть общие свойства и методы, потому что все классы
+            DOM-узлов образуют единую иерархию.
+
+            Каждый DOM-узел принадлежит соответствующему встроенному классу.
+
+            Корнем иерархии является EventTarget, от него наследует Node и остальные DOM-узлы.
+
+            На рисунке ниже изображены основные классы:
+
+    </p>
+
+    <img src="https://learn.javascript.ru/article/basic-dom-node-properties/dom-class-hierarchy.svg"
+        alt="shema klassov dom uzlov">
+    <script src="/main.js"></script>
+
+</body>
+
+</html>
